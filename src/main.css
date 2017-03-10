@@ -1,0 +1,71 @@
+html, body, h1, h2, h3, p, ul, li, a {
+  padding: 0;
+  border:0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: Arial, sans-serif;
+}
+
+html {
+  background-color: #BBCCFF;
+  background: linear-gradient(to bottom, #BBCCFF, #FFFFFF);
+}
+
+.header {
+  background-color: #2222FF;
+  background: linear-gradient(to right, #2222FF, #8888FF);
+  box-shadow: 0px 0px 40px grey;
+  color: #FFFFFF;
+  padding: 1% 1% 1% 1%;
+  object-fit: contain;
+}
+
+.header img {
+  border-radius: 50%;
+  margin: 0% 15% 0% 15%;
+  max-height: 12%;
+}
+
+.header h1 {
+  font-size: 450%;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.header h2 {
+  font-size: 250%;
+}
+
+main {
+  background-color: #FFFFFF;
+  border: 2px solid black;
+  font-size: 115%;
+  margin: 3% 45% 3% 3%;
+  padding: 3%;
+  text-align: justify;
+}
+
+main div {
+  padding-bottom: 10%;
+}
+
+h3 {
+  font-family: Tahoma, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 1%;
+  padding: 1% 0 1% 0;
+  text-align: center;
+}
+
+.skills li{
+  display: inline;
+  padding-left: 5%;
+  font-family: "Courier New", sans-serif;
+}
+
+.skills ul{
+  text-align: center;
+  padding-top: 2%;
+}
